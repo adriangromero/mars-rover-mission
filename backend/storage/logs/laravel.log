@@ -1,0 +1,203 @@
+[2025-02-09 21:51:38] dev.INFO: Cargando rutas API  
+[2025-02-09 21:51:40] dev.ERROR: require(/srv/app/bootstrap/../routes/web.php): Failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): require(/srv/app/bootstrap/../routes/web.php): Failed to open stream: No such file or directory at /srv/app/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php:35)
+[stacktrace]
+#0 /srv/app/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'require(/srv/ap...', '/srv/app/vendor...', 35)
+#1 /srv/app/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php(35): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'require(/srv/ap...', '/srv/app/vendor...', 35)
+#2 /srv/app/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php(35): require('/srv/app/vendor...')
+#3 /srv/app/vendor/laravel/framework/src/Illuminate/Routing/Router.php(513): Illuminate\\Routing\\RouteFileRegistrar->register('/srv/app/bootst...')
+#4 /srv/app/vendor/laravel/framework/src/Illuminate/Routing/Router.php(467): Illuminate\\Routing\\Router->loadRoutes('/srv/app/bootst...')
+#5 /srv/app/vendor/laravel/framework/src/Illuminate/Routing/RouteRegistrar.php(199): Illuminate\\Routing\\Router->group(Array, '/srv/app/bootst...')
+#6 /srv/app/vendor/laravel/framework/src/Illuminate/Foundation/Configuration/ApplicationBuilder.php(248): Illuminate\\Routing\\RouteRegistrar->group('/srv/app/bootst...')
+#7 /srv/app/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): Illuminate\\Foundation\\Configuration\\ApplicationBuilder->Illuminate\\Foundation\\Configuration\\{closure}()
+#8 /srv/app/vendor/laravel/framework/src/Illuminate/Container/Util.php(43): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#9 /srv/app/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(83): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#10 /srv/app/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#11 /srv/app/vendor/laravel/framework/src/Illuminate/Container/Container.php(694): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#12 /srv/app/vendor/laravel/framework/src/Illuminate/Foundation/Support/Providers/RouteServiceProvider.php(162): Illuminate\\Container\\Container->call(Object(Closure))
+#13 /srv/app/vendor/laravel/framework/src/Illuminate/Foundation/Support/Providers/RouteServiceProvider.php(59): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->loadRoutes()
+#14 /srv/app/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->Illuminate\\Foundation\\Support\\Providers\\{closure}()
+#15 /srv/app/vendor/laravel/framework/src/Illuminate/Container/Util.php(43): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#16 /srv/app/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(83): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#17 /srv/app/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#18 /srv/app/vendor/laravel/framework/src/Illuminate/Container/Container.php(694): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#19 /srv/app/vendor/laravel/framework/src/Illuminate/Support/ServiceProvider.php(144): Illuminate\\Container\\Container->call(Object(Closure))
+#20 /srv/app/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1150): Illuminate\\Support\\ServiceProvider->callBootedCallbacks()
+#21 /srv/app/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1128): Illuminate\\Foundation\\Application->bootProvider(Object(Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider))
+#22 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider), 'Illuminate\\\\Foun...')
+#23 /srv/app/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1127): array_walk(Array, Object(Closure))
+#24 /srv/app/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#25 /srv/app/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(342): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#26 /srv/app/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(474): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#27 /srv/app/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(196): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#28 /srv/app/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1231): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#29 /srv/app/artisan(13): Illuminate\\Foundation\\Application->handleCommand(Object(Symfony\\Component\\Console\\Input\\ArgvInput))
+#30 {main}
+"} 
+[2025-02-09 21:55:16] dev.INFO: Cargando rutas API  
+[2025-02-09 21:55:56] dev.INFO: Cargando rutas API  
+[2025-02-09 21:56:47] dev.INFO: Cargando rutas API  
+[2025-02-09 21:57:47] dev.INFO: Cargando rutas API  
+[2025-02-09 22:00:30] dev.INFO: Cargando rutas API  
+[2025-02-09 22:00:55] dev.INFO: Cargando rutas API  
+[2025-02-09 22:00:55] dev.INFO: Cargando rutas API  
+[2025-02-09 22:04:36] dev.INFO: Cargando rutas API  
+[2025-02-09 22:07:47] dev.INFO: Cargando rutas API  
+[2025-02-09 22:07:54] dev.INFO: Cargando rutas API  
+[2025-02-09 22:11:50] dev.INFO: Cargando rutas API  
+[2025-02-09 22:12:43] dev.INFO: Cargando rutas API  
+[2025-02-09 22:13:02] dev.INFO: Cargando rutas API  
+[2025-02-09 22:13:02] dev.INFO: Cargando rutas API  
+[2025-02-09 22:13:38] dev.INFO: Cargando rutas API  
+[2025-02-09 22:14:34] dev.INFO: Cargando rutas API  
+[2025-02-09 22:15:33] dev.INFO: Cargando rutas API  
+[2025-02-09 22:16:13] dev.INFO: Cargando rutas API  
+[2025-02-09 22:17:05] dev.INFO: Cargando rutas API  
+[2025-02-09 22:17:55] dev.INFO: Cargando rutas API  
+[2025-02-09 22:19:01] dev.INFO: Cargando rutas API  
+[2025-02-09 22:19:03] dev.INFO: Cargando rutas API  
+[2025-02-09 22:20:50] dev.INFO: Cargando rutas API  
+[2025-02-09 22:22:19] dev.INFO: Cargando rutas API  
+[2025-02-09 22:24:34] dev.INFO: Cargando rutas API  
+[2025-02-09 22:24:40] dev.INFO: Cargando rutas API  
+[2025-02-09 22:25:58] dev.INFO: Cargando rutas API  
+[2025-02-09 22:26:00] dev.INFO: Cargando rutas API  
+[2025-02-09 22:27:20] dev.INFO: Cargando rutas API  
+[2025-02-09 22:27:30] dev.INFO: Cargando rutas API  
+[2025-02-09 22:27:40] dev.INFO: Cargando rutas API  
+[2025-02-09 22:29:51] dev.INFO: Cargando rutas API  
+[2025-02-09 22:30:39] dev.INFO: Cargando rutas API  
+[2025-02-09 22:31:01] dev.INFO: Cargando rutas API  
+[2025-02-09 22:31:14] dev.INFO: Cargando rutas API  
+[2025-02-09 22:31:15] dev.INFO: Cargando rutas API  
+[2025-02-09 22:32:09] dev.INFO: Cargando rutas API  
+[2025-02-09 22:33:21] dev.INFO: Cargando rutas API  
+[2025-02-09 22:42:48] dev.INFO: Cargando rutas API  
+[2025-02-09 22:42:56] dev.INFO: Cargando rutas API  
+[2025-02-09 22:42:58] dev.INFO: Cargando rutas API  
+[2025-02-09 22:52:08] dev.INFO: Cargando rutas API  
+[2025-02-09 22:55:44] dev.INFO: Cargando rutas API  
+[2025-02-09 22:56:05] dev.INFO: Cargando rutas API  
+[2025-02-09 22:57:18] dev.INFO: Cargando rutas API  
+[2025-02-09 22:57:30] dev.INFO: Cargando rutas API  
+[2025-02-09 22:57:30] dev.INFO: Cargando rutas API  
+[2025-02-09 22:57:30] dev.INFO: Cargando rutas API  
+[2025-02-09 22:57:31] dev.INFO: Cargando rutas API  
+[2025-02-09 22:57:31] dev.INFO: Cargando rutas API  
+[2025-02-09 22:58:40] dev.INFO: Cargando rutas API  
+[2025-02-09 23:00:19] dev.INFO: Cargando rutas API  
+[2025-02-09 23:00:20] dev.INFO: Cargando rutas API  
+[2025-02-09 23:00:22] dev.INFO: Cargando rutas API  
+[2025-02-09 23:00:46] dev.INFO: Cargando rutas API  
+[2025-02-09 23:01:26] dev.INFO: Cargando rutas API  
+[2025-02-09 23:01:33] dev.INFO: Cargando rutas API  
+[2025-02-09 23:01:34] dev.INFO: Cargando rutas API  
+[2025-02-09 23:01:42] dev.INFO: Cargando rutas API  
+[2025-02-09 23:01:43] dev.INFO: Cargando rutas API  
+[2025-02-09 23:08:07] dev.INFO: Cargando rutas API  
+[2025-02-09 23:08:16] dev.INFO: Cargando rutas API  
+[2025-02-09 23:09:12] dev.INFO: Cargando rutas API  
+[2025-02-09 23:09:25] dev.INFO: Cargando rutas API  
+[2025-02-09 23:10:53] dev.INFO: Cargando rutas API  
+[2025-02-09 23:12:05] dev.INFO: Cargando rutas API  
+[2025-02-09 23:14:20] dev.INFO: Cargando rutas API  
+[2025-02-09 23:14:21] dev.INFO: Cargando rutas API  
+[2025-02-09 23:19:23] dev.INFO: Cargando rutas API  
+[2025-02-09 23:19:35] dev.INFO: Cargando rutas API  
+[2025-02-09 23:19:36] dev.INFO: Cargando rutas API  
+[2025-02-09 23:20:58] dev.INFO: Cargando rutas API  
+[2025-02-09 23:21:17] dev.INFO: Cargando rutas API  
+[2025-02-09 23:21:18] dev.INFO: Cargando rutas API  
+[2025-02-09 23:23:19] dev.INFO: Cargando rutas API  
+[2025-02-09 23:23:54] dev.INFO: Cargando rutas API  
+[2025-02-09 23:25:11] dev.INFO: Cargando rutas API  
+[2025-02-09 23:25:12] dev.INFO: Cargando rutas API  
+[2025-02-09 23:25:19] dev.INFO: Cargando rutas API  
+[2025-02-09 23:25:20] dev.INFO: Cargando rutas API  
+[2025-02-09 23:25:46] dev.INFO: Cargando rutas API  
+[2025-02-09 23:29:52] dev.INFO: Cargando rutas API  
+[2025-02-09 23:30:05] dev.INFO: Cargando rutas API  
+[2025-02-09 23:31:23] dev.INFO: Cargando rutas API  
+[2025-02-09 23:31:31] dev.INFO: Cargando rutas API  
+[2025-02-09 23:31:32] dev.INFO: Cargando rutas API  
+[2025-02-09 23:34:16] dev.INFO: Cargando rutas API  
+[2025-02-09 23:35:03] dev.INFO: Cargando rutas API  
+[2025-02-09 23:35:04] dev.INFO: Cargando rutas API  
+[2025-02-10 17:22:52] dev.INFO: Cargando rutas API  
+[2025-02-10 17:23:37] dev.INFO: Cargando rutas API  
+[2025-02-10 17:28:46] dev.INFO: Cargando rutas API  
+[2025-02-10 17:33:07] dev.INFO: Cargando rutas API  
+[2025-02-10 17:34:13] dev.INFO: Cargando rutas API  
+[2025-02-10 17:35:23] dev.INFO: Cargando rutas API  
+[2025-02-10 17:36:06] dev.INFO: Cargando rutas API  
+[2025-02-10 17:36:10] dev.INFO: Cargando rutas API  
+[2025-02-10 17:36:11] dev.INFO: Cargando rutas API  
+[2025-02-10 17:36:12] dev.INFO: Cargando rutas API  
+[2025-02-10 17:36:16] dev.ERROR: Please provide a valid cache path. {"exception":"[object] (InvalidArgumentException(code: 0): Please provide a valid cache path. at /srv/app/vendor/laravel/framework/src/Illuminate/View/Compilers/Compiler.php:67)
+[stacktrace]
+#0 /srv/app/vendor/laravel/framework/src/Illuminate/View/ViewServiceProvider.php(97): Illuminate\\View\\Compilers\\Compiler->__construct(Object(Illuminate\\Filesystem\\Filesystem), false, '', true, 'php')
+#1 /srv/app/vendor/laravel/framework/src/Illuminate/Container/Container.php(937): Illuminate\\View\\ViewServiceProvider->Illuminate\\View\\{closure}(Object(Illuminate\\Foundation\\Application), Array)
+#2 /srv/app/vendor/laravel/framework/src/Illuminate/Container/Container.php(819): Illuminate\\Container\\Container->build(Object(Closure))
+#3 /srv/app/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1074): Illuminate\\Container\\Container->resolve('blade.compiler', Array, true)
+#4 /srv/app/vendor/laravel/framework/src/Illuminate/Container/Container.php(755): Illuminate\\Foundation\\Application->resolve('blade.compiler', Array)
+#5 /srv/app/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1056): Illuminate\\Container\\Container->make('blade.compiler', Array)
+#6 /srv/app/vendor/laravel/framework/src/Illuminate/View/ViewServiceProvider.php(168): Illuminate\\Foundation\\Application->make('blade.compiler')
+#7 [internal function]: Illuminate\\View\\ViewServiceProvider->Illuminate\\View\\{closure}()
+#8 /srv/app/vendor/laravel/framework/src/Illuminate/View/Engines/EngineResolver.php(55): call_user_func(Object(Closure))
+#9 /srv/app/vendor/laravel/framework/src/Illuminate/View/Factory.php(326): Illuminate\\View\\Engines\\EngineResolver->resolve('blade')
+#10 /srv/app/vendor/laravel/framework/src/Illuminate/View/Factory.php(288): Illuminate\\View\\Factory->getEngineFromPath('/srv/app/vendor...')
+#11 /srv/app/vendor/laravel/framework/src/Illuminate/View/Factory.php(160): Illuminate\\View\\Factory->viewInstance('errors::404', '/srv/app/vendor...', Array)
+#12 /srv/app/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(88): Illuminate\\View\\Factory->make('errors::404', Array)
+#13 /srv/app/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(894): Illuminate\\Routing\\ResponseFactory->view('errors::404', Array, 404, Array)
+#14 /srv/app/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(815): Illuminate\\Foundation\\Exceptions\\Handler->renderHttpException(Object(Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException))
+#15 /srv/app/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(706): Illuminate\\Foundation\\Exceptions\\Handler->prepareResponse(Object(Illuminate\\Http\\Request), Object(Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException))
+#16 /srv/app/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(594): Illuminate\\Foundation\\Exceptions\\Handler->renderExceptionResponse(Object(Illuminate\\Http\\Request), Object(Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException))
+#17 /srv/app/vendor/nunomaduro/collision/src/Adapters/Laravel/ExceptionHandler.php(54): Illuminate\\Foundation\\Exceptions\\Handler->render(Object(Illuminate\\Http\\Request), Object(Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException))
+#18 /srv/app/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(51): NunoMaduro\\Collision\\Adapters\\Laravel\\ExceptionHandler->render(Object(Illuminate\\Http\\Request), Object(Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException))
+#19 /srv/app/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(172): Illuminate\\Routing\\Pipeline->handleException(Object(Illuminate\\Http\\Request), Object(Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException))
+#20 /srv/app/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#21 /srv/app/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#22 /srv/app/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(209): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#23 /srv/app/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#24 /srv/app/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(51): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#25 /srv/app/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(209): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#26 /srv/app/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#27 /srv/app/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(209): Illuminate\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#28 /srv/app/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(110): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#29 /srv/app/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(209): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#30 /srv/app/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#31 /srv/app/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(209): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#32 /srv/app/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(58): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#33 /srv/app/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(209): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#34 /srv/app/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks.php(22): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#35 /srv/app/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(209): Illuminate\\Foundation\\Http\\Middleware\\InvokeDeferredCallbacks->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#36 /srv/app/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(127): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#37 /srv/app/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(176): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#38 /srv/app/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(145): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#39 /srv/app/vendor/laravel/framework/src/Illuminate/Foundation/Testing/Concerns/MakesHttpRequests.php(607): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#40 /srv/app/vendor/laravel/framework/src/Illuminate/Foundation/Testing/Concerns/MakesHttpRequests.php(368): Illuminate\\Foundation\\Testing\\TestCase->call('GET', '/', Array, Array, Array, Array)
+#41 /srv/app/tests/Feature/ExampleTest.php(15): Illuminate\\Foundation\\Testing\\TestCase->get('/')
+#42 /srv/app/vendor/phpunit/phpunit/src/Framework/TestCase.php(1234): Tests\\Feature\\ExampleTest->test_the_application_returns_a_successful_response()
+#43 /srv/app/vendor/phpunit/phpunit/src/Framework/TestCase.php(514): PHPUnit\\Framework\\TestCase->runTest()
+#44 /srv/app/vendor/phpunit/phpunit/src/Framework/TestRunner/TestRunner.php(87): PHPUnit\\Framework\\TestCase->runBare()
+#45 /srv/app/vendor/phpunit/phpunit/src/Framework/TestCase.php(361): PHPUnit\\Framework\\TestRunner->run(Object(Tests\\Feature\\ExampleTest))
+#46 /srv/app/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit\\Framework\\TestCase->run()
+#47 /srv/app/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit\\Framework\\TestSuite->run()
+#48 /srv/app/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit\\Framework\\TestSuite->run()
+#49 /srv/app/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(64): PHPUnit\\Framework\\TestSuite->run()
+#50 /srv/app/vendor/phpunit/phpunit/src/TextUI/Application.php(210): PHPUnit\\TextUI\\TestRunner->run(Object(PHPUnit\\TextUI\\Configuration\\Configuration), Object(PHPUnit\\Runner\\ResultCache\\DefaultResultCache), Object(PHPUnit\\Framework\\TestSuite))
+#51 /srv/app/vendor/phpunit/phpunit/phpunit(104): PHPUnit\\TextUI\\Application->run(Array)
+#52 {main}
+"} 
+[2025-02-10 17:36:57] dev.INFO: Cargando rutas API  
+[2025-02-10 17:36:57] dev.INFO: Cargando rutas API  
+[2025-02-10 17:52:59] dev.INFO: Cargando rutas API  
+[2025-02-10 17:54:52] dev.INFO: Cargando rutas API  
+[2025-02-10 17:55:11] dev.INFO: Cargando rutas API  
+[2025-02-10 17:55:11] dev.INFO: Cargando rutas API  
+[2025-02-10 17:55:29] dev.INFO: Cargando rutas API  
+[2025-02-10 17:56:06] dev.INFO: Cargando rutas API  
+[2025-02-10 17:56:14] dev.INFO: Cargando rutas API  
+[2025-02-10 17:56:14] dev.INFO: Cargando rutas API  
+[2025-02-10 17:56:33] dev.INFO: Cargando rutas API  
+[2025-02-10 17:56:38] dev.INFO: Cargando rutas API  
+[2025-02-10 17:56:39] dev.INFO: Cargando rutas API  

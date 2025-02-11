@@ -1,0 +1,54 @@
+services: 
+  php:
+    build:
+      context: .
+      dockerfile: docker/php/Dockerfile
+    volumes:
+      - ./backend:/srv/app
+    working_dir: /srv/app
+    ports:
+      - "8000:8000"
+    environment:
+      APP_ENV: dev
+    networks:
+      - backend
+
+  vue:
+    build:
+      context: .
+      dockerfile: docker/vue/Dockerfile
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+    ports:
+      - "5173:5173"
+    stdin_open: true
+    tty: true
+    environment:
+      - CHOKIDAR_USEPOLLING=true
+      - NODE_ENV=development
+      - WATCHPACK_POLLING=true
+    depends_on:
+      - php
+    command: ["npm", "run", "serve"]
+    networks:
+      - backend
+
+  nginx:
+    depends_on:
+     - php
+     - vue
+    build:
+      context: .
+      dockerfile: docker/nginx/Dockerfile
+    volumes:
+      - ./backend:/srv/app
+      - ./frontend/dist:/usr/share/nginx/html
+    ports:
+      - "80:80"
+    networks:
+      - backend 
+
+networks:
+  backend:
+    driver: bridge
