@@ -18,7 +18,7 @@ This project is part of a technical evaluation for a company, showcasing skills 
     cp .env.example .env
     ```
 
-3. Build and start the services with Docker Compose in the development profile:
+3. Build and start the services with Docker Compose:
     ```bash
     docker-compose up --build -d
     docker-compose exec php bash
