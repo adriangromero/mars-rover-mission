@@ -89,7 +89,7 @@ This project is part of a technical evaluation for a company, showcasing skills 
 
 ## Run Unit Tests
 
-To run unit tests, use the following command:
+To run unit tests, use the following commands:
 ```bash
 docker-compose exec php bash
 vendor/bin/phpunit tests/Unit/RoverServiceTest.php
