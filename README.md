@@ -15,6 +15,7 @@ This project is part of a technical evaluation for a company, showcasing skills 
 2. Clone the repository:
     ```bash
     git clone https://github.com/adriangromero/mars-rover-mission.git .
+    cp .env.example .env
     ```
 
 3. Build and start the services with Docker Compose in the development profile:
