@@ -15,13 +15,11 @@ RUN apk add --no-cache \
 # Instala Bash utilizando apk
 RUN apk update && apk add bash
 
-# Optimización de tiempo de respuesta
 RUN docker-php-ext-install opcache && \
     echo "opcache.enable=1" >> /usr/local/etc/php/conf.d/opcache.ini && \
     echo "opcache.memory_consumption=256" >> /usr/local/etc/php/conf.d/opcache.ini && \
     echo "opcache.validate_timestamps=0" >> /usr/local/etc/php/conf.d/opcache.ini
 
-# Configuración de PHP-FPM
 RUN echo "pm = dynamic" >> /usr/local/etc/php-fpm.d/zz-docker.conf && \
     echo "pm.max_children = 20" >> /usr/local/etc/php-fpm.d/zz-docker.conf && \
     echo "pm.start_servers = 5" >> /usr/local/etc/php-fpm.d/zz-docker.conf && \
@@ -30,13 +28,11 @@ RUN echo "pm = dynamic" >> /usr/local/etc/php-fpm.d/zz-docker.conf && \
 
 COPY docker/php/config/custom.ini /usr/local/etc/php/conf.d/custom.ini
 
-# Asegurar permisos del directorio de trabajo
 WORKDIR /srv/app
 
 COPY . .
 
 RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
 
-# Exponer el puerto 9000 y ejecutar PHP-FPM
 EXPOSE 8000
 CMD ["php-fpm"]
