@@ -1,6 +1,5 @@
 FROM php:8.2-fpm-alpine
 
-# Instalar dependencias del sistema (agrega icu-dev)
 RUN apk add --no-cache \
     git \
     unzip \
@@ -12,7 +11,6 @@ RUN apk add --no-cache \
     icu-dev \
     bash 
 
-# Instala Bash utilizando apk
 RUN apk update && apk add bash
 
 RUN docker-php-ext-install opcache && \
